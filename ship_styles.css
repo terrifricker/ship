@@ -1,3 +1,13 @@
+:root {
+    --tan: #bfb9aa;
+    --brown: #5e514e;
+    --almost-black: #202c38;
+    --dark-blue: #354a6b;
+    --blue: #809db5;
+    --light-blue: #d6dde6;
+}
+
+
 div,
 section,
 article {
