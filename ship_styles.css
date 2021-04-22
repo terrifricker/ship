@@ -8,6 +8,14 @@
 }
 
 
+body {
+    background-color: var(--light-blue);
+    color: var(--almost-black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+
+}
+
 div,
 section,
 article {
