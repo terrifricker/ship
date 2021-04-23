@@ -7,6 +7,21 @@
     --light-blue: #d6dde6;
 }
 
+.tan {
+    background-color: var(--tan);
+}
+.brown {
+    background-color: var(--brown);
+}
+.almost-black {
+    background-color: var(--almost-black);
+}
+.dark-blue {
+    background-color: var(--dark-blue);
+}
+.light-blue {
+    background-color: var(--light-blue);
+}
 
 body {
     background-color: var(--light-blue);
