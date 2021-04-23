@@ -19,6 +19,35 @@ body {
 div,
 section,
 article {
-    padding: 50px;
-    border: 2pt solid salmon;
+    padding: 20px;
+    border: 2pt solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "what what what"
+    "who where experience"
+    "serve serve serve";
+    justify-items: stretch;
+    align-items: stretch;
+    gap: 10px;
+}
+
+#article-1 {
+    grid-area: what;
+}
+#article-2 {
+    grid-area: who;
+}
+#article-3 {
+    grid-area: where;
+}
+#article-4 {
+    grid-area: serve;
+}
+#article-5 {
+    grid-area: experience;
 }
