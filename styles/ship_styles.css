@@ -24,6 +24,7 @@
 }
 
 body {
+    margin: 20px;
     background-color: var(--light-blue);
     color: var(--almost-black);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
